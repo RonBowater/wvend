@@ -68,12 +68,6 @@ CI.WinchWeeklySalesView = Backbone.View.extend(
         
       	clean_divs (this, 'C', 'C'); 
         this.$el.html(this.template());
-          
-        $(document).on('change', "input[name=formDate]", function() 
-		{ 
-			CI.the_date = new Date($('input[name=formDate]').val());
-			self.doProceed();
-		});   
             
         this.setdates();
     },
