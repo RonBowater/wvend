@@ -1,0 +1,114 @@
+.date_row
+{
+	height: 40px;
+	margin-top:15px;
+}	
+.date_col
+{
+	padding-left:0px;
+}	
+.shop_col
+{
+	padding-left:0px;
+}	
+.shop_select
+{
+	font-size: 14px;	
+}	
+.list_dobutton
+{	
+	margin-top:20px;
+}	
+
+span.redbold
+{
+	
+	font-weight: bold;
+	font-size: 16px;
+	color: #a94442;
+}
+
+span.greenbold
+{
+	font-weight: bold;
+	font-size: 16px;
+	color: green;
+}
+
+.rb-row-1 {margin-top:10px;margin-bottom:10px;margin-left:0px;margin-right:0px;}	
+
+@media screen and (min-width: 992px) {
+.rb-col-l {padding-left:0px;padding-right:10px;margin-bottom:10px}
+.rb-col-c {padding-left:5px;padding-right:5px;margin-bottom:10px}
+.rb-col-r {padding-left:10px;padding-right:0px;margin-bottom:10px}
+}
+
+@media screen and (max-width: 992px) {
+.rb-col-l {padding-left:0px;padding-right:0px;margin-bottom:10px}
+.rb-col-c {padding-left:0px;padding-right:0px;margin-bottom:10px}
+.rb-col-r {padding-left:0px;padding-right:0px;margin-bottom:10px}
+}
+	
+
+.rb-textarea
+{
+    border:1px solid #999999;
+    width:98%;
+} 
+
+.rjb-form-adjust1
+{
+	float: none !important;
+	padding-left: 0px !important;
+	width: 300px !important;
+}
+
+.rjb-form-adjust2
+{
+}  
+
+.hoverTable
+{
+	width:100%; 
+	border-collapse:collapse; 
+}
+
+/* Define the hover highlight color for the table row */
+.hoverTable tr:hover 
+{
+	  background-color: #ffff99;
+}
+
+/* Define the hover highlight color for the table row */
+.hoverMark 
+{
+	  background-color: #99ffff;
+	  color:red;
+	  font-weight:700;
+}
+
+.my_form-control-static {
+    min-height: 34px;
+    padding-bottom: 7px;
+    margin-bottom: 0;
+}
+
+/* Following for enscroll */
+
+.scrollbox {
+    overflow: auto; /* Start writing your markup with this style */
+    width: auto !important;   /* The dimensions of your content pane */
+    height: 300px;
+    border: 1px solid #000000;
+    padding: 0 5px;
+}
+
+.vertical-track {
+    width: 16px;              /* The width of the scrollbar */
+    background-color: #ddd;   /* The color of the scrollbar track*/
+}
+
+.vertical-handle {
+    width: 100%;
+    background-color: #77f; /* The color of the scrollbar handle */
+}
