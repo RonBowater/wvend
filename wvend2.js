@@ -644,6 +644,9 @@ CI.WinchWeeklyPaymentsListView = Backbone.View.extend(
     		total_total = total_total + parseFloat(vend_data[key].total_payments)
     		
         	mydata.push(myitem);
+		
+		console.log (vend_data[key].creation_date);
+		
         	last_update_date = format_y_m_d_to_d_mname_y(vend_data[key].creation_date);
         	last_update_time = vend_data[key].creation_time;
         	if (vend_data[key].total_sales != 0)
