@@ -321,7 +321,7 @@ CI.WinchWeeklySalesListView = Backbone.View.extend(
         
         if (last_update_date != "")
         {
-        	update_text = "Updated " + last_update_date + " at " +  last_update_time;
+        	update_text = "Updated " + last_update_date + " at " +  last_update_time + " 111";
         }	
         else
         {
