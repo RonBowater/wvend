@@ -169,6 +169,7 @@ CI.WinchWeeklySalesView = Backbone.View.extend(
         	var item = {};
         	
         	var a_date = new Date(G_vend_data[i][0]);
+		console.log (a_date);
         	
         	if ((a_date>=dm_date) && (a_date<=ds_date))
         	{        	
